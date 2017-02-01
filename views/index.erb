@@ -1,0 +1,12 @@
+<h1> Student Register </h1>
+
+<% for student in @students %>
+
+<p>Forename: <%= student.first_name %></p>
+<p>Surname: <%= student.second_name %></p>
+<p>House: <%= student.house_id  %></p>
+<p>Age: <%= student.age  %></p>
+
+<hr />
+
+<% end %>

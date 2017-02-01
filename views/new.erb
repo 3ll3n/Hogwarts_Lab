@@ -1,0 +1,33 @@
+<h1>Enrol New Student</h1>
+
+<form action="/students" method="post">
+  <label>
+  Forename:
+    <input type="text" name="first_name">
+  </label>
+
+  <label>
+  Surname:
+    <input type="text" name="second_name">
+  </label>
+
+  <label>
+    Select a house:
+    <select name="house_id">
+    <% for house in @houses %>
+      <option value="<%=house.id%>"><%= house.name %></option>
+    <% end %>
+    </select>
+  </label>
+
+  <label>
+  Age:
+    <input type="number" min="12" name="age">
+  </label>
+
+  <input type="submit" value="Enrol New Student">
+
+</form>
+
+
+
