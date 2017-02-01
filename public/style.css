@@ -1,0 +1,41 @@
+body {
+  background-color: lightgrey;
+}
+
+a {
+  color: black;
+}
+
+a:hover{
+  color: mediumpurple;
+}
+
+.students {
+  background-color: mediumpurple;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: underline;
+  width: 50%;
+  margin: auto;
+}
+
+.student_details {
+  border: 5px solid mediumpurple;
+  width: 25%;
+  margin: 10px auto;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+nav {
+  margin: 5px;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  border: 2px solid mediumpurple;
+  width: 15%;
+  text-align: center;
+  background-color: whitesmoke;
+}
